@@ -1,0 +1,41 @@
+.food-display {
+    display: flex;
+    gap: 20px;
+}
+
+.food-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    border: 2px solid darkgoldenrod;
+}
+
+.food-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-header h3 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.food-content hr {
+    width: 100%;
+    height: 2px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 8px;
+}
+
+.food-desc {
+    text-wrap: wrap;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
